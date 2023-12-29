@@ -35,3 +35,18 @@ least 20 times by each
 subject
 - Each activity lasts for 4
 seconds
+
+### The Cognitive Village dataset (3/6)
+- Data acquisition performed using 3
+wearable devices:
+    - Google NEXUS 5X smartphone
+    - Microsoft Band 2
+    - JINS MEME glasses
+- Note 1: each device has its own sampling
+rate
+- Note 2: smartphone/smartwatch placed in
+the left pocket/on the left arm → differences
+between left- and right-hand executions for
+some behavioural activities
+    - In this project, executions using both hands will
+be used

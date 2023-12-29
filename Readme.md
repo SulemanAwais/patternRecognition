@@ -90,3 +90,15 @@ Precision (code provided on Moodle)
 - All Python libraries are allowed
 - The final performances of your method will not be taken into account for your
 grade!
+
+## Methodology:-
+- The first step of this project Is that we imported all the necessary libraries required in it. 
+- We imported the dateset from google drive( this project was done using google colab)
+- Features were extracted for both train data and the test data.
+- Feature vectors were reshaped
+- Training data was passed to a Support vector classifier.
+- Model was trained and was evaluated using confusion matrix 
+- All the required performance parameters we computed.
+
+##  Feature extraction:
+ Mean, minimum, maximum, standard deviation, skewness, variance, and percentile features were extracted from the data. These features were extracted against every sensor of each device using numpy.

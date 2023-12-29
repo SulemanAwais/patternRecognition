@@ -50,3 +50,13 @@ between left- and right-hand executions for
 some behavioural activities
     - In this project, executions using both hands will
 be used
+
+### The Cognitive Village dataset (4/6)
+- Dataset provided in the file.
+- Training and testing datasets + labels already prepared
+- Data and labels are Numpy arrays (.npy files)
+- One data file for each sensor from all 3 devices:
+    - Smartphone: Accelerometer, Gravity, Gyroscope, LinearAcceleration (all
+sampled at 200Hz) + Magnetometer (50Hz)
+    - Smartwatch: MSAccelerometer, MSGyroscope (67Hz)
+    - Smartglasses: JinsAccelerometer, JinsGyroscope (20 Hz)

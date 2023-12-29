@@ -107,3 +107,7 @@ grade!
 
  ## Model evaluation: 
 The performance of the trained model was evaluated using a confusion matrix. Weighted f1 score, average f1 score and  accuracy were computed using sklearn.
+
+## Results: 
+The SVM model trained on the extracted features performed well in recognizing patterns in the data. The confusion matrix showed that the model had a good balance of true positive, false positive, true negative, and false negative predictions. 
+The model has a good performance in recognizing patterns in the data. However, further refinement and optimization can be performed to improve the model's accuracy.

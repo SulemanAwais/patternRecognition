@@ -60,3 +60,33 @@ be used
 sampled at 200Hz) + Magnetometer (50Hz)
     - Smartwatch: MSAccelerometer, MSGyroscope (67Hz)
     - Smartglasses: JinsAccelerometer, JinsGyroscope (20 Hz)
+
+### The Cognitive Village dataset (5/6)
+- Each data file is a 3D numpy array of size (N, T, S) with:
+    - N: total number of executions
+    - T: length for 4 seconds of data (depends on the device)
+    - S: number of sensor channels (depends on the device)
+•- The label file is a 1D numpy array of size (N). It contains
+integers between 0 and 54. Each integer represents a
+behavioural activity.
+
+## Objectives of the project
+#### Objectives:
+- Classification of behavioral activities of the CogAge dataset (with both hand
+executions)
+- Implement the PRC to obtain a trained classifier on the CogAge dataset
+- Obtain evaluations of the performances of the classifier
+#### Constraints:
+- You must use the provided training and testing sets
+- You must use the two following evaluation metrics:
+    - Accuracy
+    - Average F1-score (also sometimes called F-score or F-measure)
+
+#### Additional specifications:
+- All classification approaches are allowed
+    - If Deep Neural Networks are used, additional evaluation metric: Mean Average
+Precision (code provided on Moodle)
+
+- All Python libraries are allowed
+- The final performances of your method will not be taken into account for your
+grade!

@@ -102,3 +102,8 @@ grade!
 
 ##  Feature extraction:
  Mean, minimum, maximum, standard deviation, skewness, variance, and percentile features were extracted from the data. These features were extracted against every sensor of each device using numpy.
+ ## Model training:
+ A Support Vector Machine (SVM) model was trained using the extracted features. The kernel we used in this model was linear kernel.
+
+ ## Model evaluation: 
+The performance of the trained model was evaluated using a confusion matrix. Weighted f1 score, average f1 score and  accuracy were computed using sklearn.
